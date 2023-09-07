@@ -1,16 +1,19 @@
 # hng_mobile_task_one
 
-A new Flutter project.
+This is a simple mobile app that features my slack identity which includes my slack profile picure and slack name. It includes an "Open Github" button that redirects users to my github profile utilizing the webview_flutter package
 
-## Getting Started
+## Prerequisites:
 
-This project is a starting point for a Flutter application.
+Make sure you have the following installed:
 
-A few resources to get you started if this is your first Flutter project:
+-Flutter SDK
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Android studio, IntelliJ IDEA or VS code
+
+## Features:
+
+-View my Slack profile details.
+
+-Easy navigation to my GitHub page.
