@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp( MaterialApp(
+    theme: ThemeData(
+      useMaterial3: true,
+    ),
     debugShowCheckedModeBanner: false,
-    home: Home(),
+    home: const Home(),
   ));
 }

@@ -14,6 +14,7 @@ class _GithubProfileScreenState extends State<GithubProfileScreen> {
   @override
   void initState() {
     webViewController = WebViewController()
+      ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..loadRequest(Uri.parse("https://github.com/mustapha-amin"));
     super.initState();
   }
@@ -21,10 +22,8 @@ class _GithubProfileScreenState extends State<GithubProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(
-        body: WebViewWidget(
-          controller: webViewController,
-        ),
+      child: WebViewWidget(
+        controller: webViewController,
       ),
     );
   }
