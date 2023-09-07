@@ -6,11 +6,14 @@ This is a simple mobile app that features my slack identity which includes my sl
 
 Make sure you have the following installed:
 
-Flutter SDK
-Dart
-Android studio, IntelliJ IDEA or VS code
+-Flutter SDK
+
+-Dart
+
+-Android studio, IntelliJ IDEA or VS code
 
 ## Features:
 
-View my Slack profile details.
-Easy navigation to my GitHub page.
+-View my Slack profile details.
+
+-Easy navigation to my GitHub page.
