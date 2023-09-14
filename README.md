@@ -17,3 +17,7 @@ Make sure you have the following installed:
 -View my Slack profile details.
 
 -Easy navigation to my GitHub page.
+
+## Screen recording
+
+![5ihLICySWT](https://github.com/mustapha-amin/hng_mobile_task_one/assets/70119794/6fe01dae-7004-431e-9e4e-5a2ec2501916)
